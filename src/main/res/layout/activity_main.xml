@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:textSize="25dp"
+            android:hint="0"
+            android:paddingLeft="10dp"/>
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:layout_marginTop="30dp"
+            android:hint="0"
+            android:textDirection="ltr"
+            android:textSize="35dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="AC"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textColor="#0000"
+                android:textSize="25dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="Clear"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="Ans"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/mod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="%"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="7"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="8"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="9"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="+"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="4"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="5"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="6"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="-"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="1"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="2"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="3"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/mul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="x"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/equal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="="
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="0"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="."
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/div"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/view_selector"
+                android:hint="/"
+                android:stateListAnimator="@android:anim/accelerate_decelerate_interpolator"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
